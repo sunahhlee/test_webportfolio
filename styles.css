@@ -1,0 +1,30 @@
+/* my custom CSS file */
+html,
+body {
+    height: 100%;
+}
+
+/* cover */
+
+#cover {
+    /*background-color: black;*/
+    background: #222 url('img/starrysky.jpg') center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+.top-heading {
+  padding-top: 15%;
+}
+
+.lowest-element {
+    padding-bottom: 15%;
+}
