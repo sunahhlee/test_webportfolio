@@ -43,6 +43,10 @@ body {
   max-width: 42em;
 }
 
+p.project {
+    font-size: 10pt;
+}
+
 
 /*
  * Header
@@ -92,6 +96,7 @@ body {
  */
 .cover {
   padding: 0 1.5rem;
+  background-color: #ffffff;
 }
 .cover .btn-lg {
   /*padding: .75rem 1.25rem;*/
