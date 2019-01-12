@@ -1,49 +1,42 @@
+.fake-divbar {
+    /*base styling*/
+    background-color: #EEEEEE;
+    margin-top: -1px; /*to keep consistent*/
+    padding: 5px;
+    text-align: center;
+}
+
 h1 {
-    font-family: "Avenir Next", "Roboto", sans-serif;
-    font-size: 40pt;
-    font-weight: 600;
+    font-family: "Avenir Next", "Roboto", "Helvetica";
     color: #FFFFFF;
-
-    text-align: center;
-    margin: 5% 5%;
-    display: inline-block;
-}
-
-p {
-    font-family: "Avenir Next", "Roboto", sans-serif;
     font-size: 16pt;
-    font-weight: 500;
-    color: #FFFFFF;
-
-    margin: 5% 5%;
-    padding-bottom: 30%;
-    text-align: center;
-    display: inline-block;
-
-}
-
-.text-box {
-    position: absolute;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-
 }
 
 .cover {
-    max-width: 100%;
-    max-height: 100%;
-    background-color: blue;
-    overflow: hidden;
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
+    /*base styling*/
+    background-color: #2A2D55;
+    width: 100%;
+    margin-top: 150px;
 }
 
-.cover img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-    overflow: hidden;
+.text-box {
+    /*base styling*/
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    margin: 0 auto;
+
+}
+
+
+p {
+    /*base styling*/
+    font-family: "Avenir Next", "Roboto", "Helvetica";
+    color: #FFFFFF;
+    font-size: 16pt;
+    line-height: 160%;
+
 }
