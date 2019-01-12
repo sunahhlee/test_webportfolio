@@ -1,4 +1,4 @@
-.fake-divbar {
+#fake-divbar {
     /*base styling*/
     background-color: #EEEEEE;
     margin-top: -1px; /*to keep consistent*/
@@ -12,25 +12,11 @@ h1 {
     font-size: 16pt;
 }
 
-.cover {
-    /*base styling*/
-    background-color: #2A2D55;
-    width: 100%;
-    margin-top: 150px;
+h2 {
+    font-family: "Avenir Next", "Roboto", "Helvetica";
+    color: #FFFFFF;
+    font-size: 16pt;
 }
-
-.text-box {
-    /*base styling*/
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20%;
-    padding-right: 20%;
-
-    margin: 0 auto;
-
-}
-
 
 p {
     /*base styling*/
@@ -38,5 +24,54 @@ p {
     color: #FFFFFF;
     font-size: 16pt;
     line-height: 160%;
+
+}
+
+#cover {
+    /* PARENT TO PHOTO & TEXT-BOX*/
+
+    /*base styling*/
+    background-color: #2A2D55;
+    width: 100%;
+    margin-top: 150px;
+
+    display: inline-block;
+    text-align: left;
+    overflow: hidden;
+}
+
+#photo {
+    height: auto;
+    width: 400px;
+    /*display: inline-block;*/
+    float: left;
+
+    padding-top: 90px;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-left: 5%;
+}
+
+#photo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+#text-box {
+    /*base styling*/
+    text-align: center;
+    width: 600px;
+    height: auto;
+    float: right;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    /*Image to left of text box, horiz align both */
+    display: inline-block;
 
 }
