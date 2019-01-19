@@ -1,11 +1,16 @@
 ## Preview
 
+Home Page
 ![Home](prev1.png)
+<br/>
 
+About Me/Experience
 ![About Me/Experience](prev2.png)
+<br/>
 
+Projects/Contact
 ![Projects](prev3.png)
-
+<br/>
 
 ## Copyright and License
 
