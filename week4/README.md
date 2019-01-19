@@ -1,5 +1,10 @@
 ## Preview
 
+![Home](prev1.png)
+
+![About Me/Experience](prev2.png)
+
+![Projects](prev3.png)
 
 
 ## Copyright and License
